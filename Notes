@@ -1,0 +1,66 @@
+What and Why
+-Open sourse propgramming language from microsoft
+-Type superset of JavaScrpit
+-Compiles down to plain JavaScipt
+-Relation to Java
+-IDE support
+-Rapid growth and use
+typescript is the main programming language of angular
+found it's way to react and vue as well
+
+1. Environment Setup
+
+   1. using command prompt (cmd)
+      -tsc main.ts
+      create a js file
+
+   -node main
+   run main.js file
+
+   2. Adding export or import statement
+      Treats the file as a module instead of a script
+
+   export {}
+
+   3. Automatically recomplie typescript file whenever there is a change
+      -run the command
+      tsc main --watch
+
+   Any changes in main.ts will create a js file with the new code
+   -run another command and run main.js
+   node main
+
+2. Variable Declarations
+
+   1. let , const
+
+3. Variable Types
+
+   1. boolean, number, string
+
+   2. intellisense, Static type checking
+      let total: number = 0;
+
+   3. null , undefined
+      let isNew: boolean = null;
+      let myName: string = undefined;
+
+   4. array
+      let list1: number[] = [1, 2, 3];
+      let list2: Array<number> = [1, 2, 3];
+      f
+      -fixed number
+      let person1: [string, number] = ["Chris", 22];
+
+   5. enum
+      enum Color {Red = 5, Green, Blue,}
+      Green is 6
+
+   6. any
+      let randomValue: any = 10;
+      randomValue = true;
+      randomValue = "Vishwas";
+
+   7. unknwon
+      let myVariable: unknown = 10;
+      (myVariable as string).toUpperCase(); //type assertion
