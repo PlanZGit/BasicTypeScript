@@ -8,9 +8,21 @@ What and Why
 typescript is the main programming language of angular
 found it's way to react and vue as well
 
+Learning TypeScript:
+1. Environment Setup
+2. Variable Declarations
+3. Variable Types
+4. Functions
+5. Interface
+6. Class and Access Modifiers
+
+
 1. Environment Setup
 
    1. using command prompt (cmd)
+	npm install typescript --save-dev
+	npm install -g typescript
+
       -tsc main.ts
       create a js file
 
